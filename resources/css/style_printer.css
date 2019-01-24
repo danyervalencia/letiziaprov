@@ -1,0 +1,49 @@
+/* ++++ ETIUETAS PARA IMPRESION DE TICKETS */
+.lbl501, .lbl502, .lbl503, .lbl511, .lbl512, .lbl513, .lbl521, .lbl522, .lbl523, .lbl531, .lbl532, .lbl533 {
+	font-family: arial, verdana;
+	color:#000000;
+	padding:0px;
+}
+
+.lbl501, .lbl502, .lbl503, .lbl511, .lbl512, .lbl513 { font-size: 8px; }
+
+.lbl521, .lbl522, .lbl523, .lbl531, .lbl532, .lbl533 { font-size: 8px; }
+
+.lbl501, .lbl502, .lbl503, .lbl521, .lbl522, .lbl523 { font-weight : light; }  /*  TEXTO  NORMAL  */
+.lbl511, .lbl512, .lbl513, .lbl531, .lbl532, .lbl533 { font-weight : bold; }    /*  TEXNO EN NEGRITA  */
+
+.lbl501, .lbl511, .lbl521, .lbl531 { text-align: left; }
+.lbl502, .lbl512, .lbl522, .lbl532 { text-align: center; }
+.lbl503, .lbl513, .lbl523, .lbl533 { text-align: right; }
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.tbl501, .tbl502 { /*  C A B E C E R A    -    D E T A L L E  */
+	border		   : none;
+	border-spacing : 0px;  /* cellspacing */
+	padding        : 0px;  /* cellpadding */
+	table-layout   : fixed;
+}
+.tbl502 { border-top:none; }
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* CONTROLES PARA  SIMULAR  LABELS */
+.txt501, .txt502, .txt503, .txt511, .txt512, .txt513, .txt521, .txt522, .txt523, .txt531, .txt532, .txt533 { 
+	border            : none;
+	background-color  : whitesmoke;
+	font-family       : Arial, verdana;
+	height            : 12px;
+	padding           : 0px;
+	padding-right     : 0px;
+	vertical-align    : middle;
+}
+
+.txt501, .txt502, .txt503, .txt511, .txt512, .txt513 { font-size : 12px; }
+.txt521, .txt522, .txt523, .txt531, .txt532, .txt533 { font-size : 11px; }
+
+.txt501, txt511, .txt521, txt531 { text-align: left; }
+.txt502, txt512, .txt522, txt532 { text-align: center; }
+.txt503, txt513, .txt523, txt533 { text-align: right; }
+
+.txt501, .txt502, .txt503, .txt521, .txt522, .txt523 { font-weight : normal; }  /*  TEXTO  NORMAL  */
+.txt511, .txt512, .txt513, .txt531, .txt532, .txt533 { font-weight : bold; }    /*  TEXNO EN NEGRITA  */

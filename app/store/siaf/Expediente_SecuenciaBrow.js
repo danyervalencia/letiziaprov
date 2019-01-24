@@ -1,0 +1,1 @@
+Ext.define('Siace.store.siaf.Expediente_SecuenciaBrow',{extend:'Ext.data.Store',model:'Siace.model.siaf.Expediente_SecuenciaBrow',pageSize:500,proxy:{type:'general',url:'php/siaf_expediente_secuencia_json_records.php'}});

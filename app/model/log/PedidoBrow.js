@@ -1,0 +1,3 @@
+Ext.define("Siace.model.log.PedidoBrow",{ extend:"Ext.data.Model",fields:[{name:"ped_key",type:"string"},{name:"ped_flga",type:"string"},{name:"tipped_id",type:"int"},{name:"ped_fecha",type:"date",dateFormat:"Y-m-d"},{name:"ped_monto",type:"float"},{name:"certif_nro",type:"int",convert:null},{name:"ped_documento",type:"string"},
+{name:"doc_abrev",type:"string"},{name:"tipped_abrev",type:"string"},{name:"area_abrev",type:"string"},{name:"tarea_codigo",type:"string"},{name:"fftr_codigo",type:"string"},{name:"pedettr_file",type:"string"},{name:"pedweb_fechafin",type:"date",dateFormat:"Y-m-d"},{name:"coti_key",type:"string"}
+]});

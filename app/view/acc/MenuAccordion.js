@@ -1,0 +1,1 @@
+Ext.define('Siace.view.acc.MenuAccordion',{extend:'Ext.panel.Panel',alias:'widget.acc_menuaccordion',collapsible:true,hideCollapseTool:false,iconCls:'icon_sitemap',layout:{type:'accordion',pack:'start'},multi:true,title:'Menu',width:800});

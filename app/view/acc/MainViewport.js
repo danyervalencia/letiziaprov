@@ -1,0 +1,4 @@
+Ext.define('Siace.view.acc.MainViewport',{extend:'Ext.container.Viewport',alias:'widget.acc_mainviewport',requires:['Siace.view.acc.Header','Siace.view.acc.MenuAccordion','Siace.view.acc.MainPanel'],defaults:{split:true},layout:{type:'border'},items:[
+{region:'north',xtype:'acc_header',itemId:'ah_',split:false},{region:'west',xtype:'acc_menuaccordion',collapsible:true,collapseMode:'header',width:185},{region:'center',xtype:'acc_mainpanel'},
+{region:'south',xtype:'container',height:20,html:'<div id="titleHeader"><center><span style="font-size:10px;">Copy Right &nbsp;2016 &nbsp;(D.A.V.LL.)</span></center></div>',split:false,style:'border-top: 1px solid #4c72a4;'}
+]});

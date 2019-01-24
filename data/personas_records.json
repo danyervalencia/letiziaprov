@@ -1,0 +1,9 @@
+{
+    success: true,
+    personas: [
+     	{pers_id: 1, pers_ruc: '10047480324', pers_nombre: 'Danyer Valencia', pers_mail: 'danyervalencia@gmail.com'},
+        {pers_id: 1, pers_ruc: '20199383898', pers_nombre: 'Magaly FLores', pers_mail: 'flormagaly@hotmail.com'},
+        {pers_id: 1, pers_ruc: '20984671623', pers_nombre: 'Juan Aldea', pers_mail: 'juan_aql@hotmail.com'},
+        {pers_id: 1, pers_ruc: '10456789978', pers_nombre: 'Ashly Vasquez', pers_mail: 'ashley_loana@hotmail.com'}
+    ]
+}

@@ -1,0 +1,1 @@
+Ext.define('Siace.store.pub.Personas_AccesosLogin',{extend:'Ext.data.Store',model:'Siace.model.pub.Persona_AccesoLogin',proxy:{type:'general',url:'php/public_personas_accesos_json_records.php'}});

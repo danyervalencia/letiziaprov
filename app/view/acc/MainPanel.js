@@ -1,0 +1,1 @@
+Ext.define("Siace.view.acc.MainPanel",{extend:"Ext.tab.Panel",alias:"widget.acc_mainpanel",activeTab:0,items:[{xtype:"panel",name:"mainPanel",closable:false,iconCls:"icon_home",title:"Inicio"}]});

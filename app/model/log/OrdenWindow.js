@@ -1,0 +1,3 @@
+Ext.define('Siace.model.log.OrdenWindow',{extend:'Ext.data.Model',fields:[{name:'orden_key',type:'string'},{name:'orden_fecha',type:'date',dateFormat:'Y-m-d'},{name:'orden_documento',type:'string'},
+{name:'area_nombre',type:'string'},{name:'secfunc_codename',type:'string'},{name:'tarea_codename',type:'string'},{name:'fuefin_codename',type:'string'},{name:'tiprecur_codename',type:'string'},{name:'orden_siaf',type:'string'}
+]});

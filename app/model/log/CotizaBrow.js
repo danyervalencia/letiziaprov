@@ -1,0 +1,3 @@
+Ext.define("Siace.model.log.CotizaBrow",{extend:"Ext.data.Model",fields:[{name:"coti_key",type:"string"},{name:"coti_flga",type:"string"},{name:"coti_fecha",type:"date",dateFormat:"Y-m-d"},{name:"coti_plazo",type:"int"},{name:"coti_monto",type:"float"},{name:"coti_documento",type:"string"},
+{name:"doc_abrev",type:"string"},{name:"lugentr_nombre",type:"string"},{name:"bp_fecha",type:"date",dateFormat:"Y-m-d"},{name:"bp_monto",type:"float"},{name:"ped_key",type:"string"},{name:"ped_documento",type:"string"},{name:"area_abrev",type:"string"},{name:"tarea_codigo",type:"string"},{name:"fftr_codigo",type:"string"},{name:"pedweb_fechafin",type:"date",dateFormat:"Y-m-d"},{name:"tippag_abrev",type:"string"},
+]});

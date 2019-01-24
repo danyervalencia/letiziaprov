@@ -1,0 +1,1 @@
+Ext.define('Siace.view.acc.MenuItem',{extend:'Ext.tree.Panel',alias:'widget.acc_menuitem',border:0,rootVisible:false});

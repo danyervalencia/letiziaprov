@@ -1,0 +1,1 @@
+Ext.define('Siace.view.acc.Translation',{extend:'Ext.button.Split',alias:'widget.acc_translation',menu:Ext.create('Ext.menu.Menu',{items:[{xtype:'menuitem',iconCls:'icon_en',text:'English'},{xtype:'menuitem',iconCls:'icon_es',text:'Español'},{xtype:'menuitem',iconCls:'icon_pt_BR',text:'Português'}]})});

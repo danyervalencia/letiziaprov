@@ -1,0 +1,1 @@
+Ext.define("Siace.store.array.YearsAB",{extend:"Ext.data.ArrayStore",autoLoad:true,fields:[{name:"year_id",type:"int",},{name:"year_nro",type:"string"},{name:"year_code",type:"string"}],data:[["0","",""],["2017","2017","2017"],["2016","2016","2016"]]});

@@ -1,0 +1,496 @@
+.capslock { 
+    background: url('../icons/flag_yellow.png') no-repeat center left; 
+    padding: 2px;
+    padding-left: 20px; 
+    font-weight: 700; 
+}
+/* .myDisabledClass input{ */
+.myDisabledClass input{
+    background-color: #f4f5f6; /*#FFFFCC;*/ /*#F5F5F5; */
+    background-image: none;
+    color : #990000 !important;
+    filter: alpha(opacity=150) !important;
+}
+.myDisabledClass .x-form-trigger{
+    opacity: .3;
+    -moz-opacity: .3;
+    filter: alpha(opacity=50);
+    cursor: inherit !important;
+}
+.icon_Accept { background-image:url('../icons/btnAccept.png') !important; }
+.icon_Activity { background-image:url('../icons/activity.png') !important; }
+.icon_Add, .icon_Add_90 { background-image:url('../icons/btnAdd.png') !important; }
+.icon_Add_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Annular { background-image:url('../icons/btnAnnular.png') !important; }
+.icon_Attach, .icon_Attach_80, .icon_Attach_90 { background-image:url('../icons/btnAttach.png') !important; }
+.icon_Attach_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Attach_80 { background-size: 80% 80%;  background-position: center; }
+.icon_Bank { background-image:url('../icons/btnBank.png') !important; }
+.icon_Batch { background-image:url('../icons/batch.png') !important; }
+.icon_Cancel { background-image:url('../icons/btnCancel.png') !important; }
+.icon_Complementary { background-image:url('../icons/btnComplementary.png') !important; }
+.icon_Delete, .icon_Delete_90 { background-image:url('../icons/btnDelete.png') !important; }
+.icon_Delete_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Detail { background-image:url('../icons/btnDetail.png') !important; }
+.icon_Documents, .icon_Documents_90 { background-image:url('../icons/btnDocuments.png') !important; }
+.icon_Documents_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Download, .icon_Download_80, .icon_Download_90 { background-image:url('../icons/btnDownload.png') !important; }
+.icon_Download_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Download_80 { background-size: 80% 80%;  background-position: center; }
+.icon_Excel { background-image:url('../icons/btnExcel.png') !important; }
+.icon_Exit { background-image:url('../icons/btnExit.png') !important; }
+.icon_Generate { background-image:url('../icons/btnGenerate.png') !important; }
+.icon_Invoice { background-image:url('../icons/btnInvoice.png') !important; }
+.icon_Key { background-image:url('../icons/btnKey.png') !important; }
+.icon_KeyGo, .icon_KeyGo_90 { background-image:url('../icons/btnKeyGo.png') !important; }
+.icon_KeyGo_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Logout, .icon_Logout_90 { background-image:url('../icons/door_out.png') !important; }
+.icon_Logout_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Modify, .icon_Modify_90 { background-image:url('../icons/btnModify.png') !important; }
+.icon_Modify_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Movements, .icon_Movements_90 { background-image:url('../icons/btnMovements.png') !important; }
+.icon_Movements_90 { background-size: 90% 90%;  background-position: center; }
+.icon_New, .icon_New_90 { background-image:url('../icons/btnNew.png') !important; }
+.icon_New_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Padlock { background-image:url('../icons/padlock.png') !important; background-size: 15% 15%; }
+.icon_Pdf, .icon_Pdf_90 { background-image:url('../icons/btnPdf.gif') !important; }
+.icon_Pdf_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Printer, .icon_Printer_90 { background-image:url('../icons/btnPrinter.png') !important; }
+.icon_Printer_90 { background-size: 80% 90%;  background-position: center; }
+.icon_Query, .icon_Query_90 { background-image:url('../icons/btnQuery.png') !important; }
+.icon_Query_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Receipts, .icon_Receipts_90, .icon_Receipts_80 { background-image:url('../icons/btnReceipts.png') !important; }
+.icon_Reject, .icon_Reject_90, .icon_Reject_80 { background-image:url('../icons/btnReject.png') !important; }
+.icon_Reject_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Reject_80 { background-size: 80% 80%;  background-position: center; }
+.icon_Return, .icon_Return_80, .icon_Return_90 { background-image:url('../icons/btnReturn.png') !important; }
+.icon_Return_80 { background-size: 80% 80%;  background-position: center; }
+.icon_Return_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Save { background-image:url('../icons/btnSave.png') !important; }
+.icon_Search, .icon_Search_90 { background-image:url('../icons/btnSearch.png') !important; }
+.icon_Search_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Suppress, .icon_Suppress_90 { background-image:url('../icons/btnSuppress.png') !important; }
+.icon_Suppress_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Undo { background-image:url('../icons/btnUndo.png') !important; }
+.icon_Upload, .icon_Upload_80, .icon_Upload_90 { background-image:url('../icons/btnUpload.png') !important; }
+.icon_Upload_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Upload_80 { background-size: 80% 80%;  background-position: center; }
+.icon_User_add, .icon_User_add_80, .icon_User_add_90 { background-image:url('../icons/user_add.png') !important; }
+.icon_User_add_90 { background-size: 90% 90%;  background-position: center; }
+.icon_User_change, .icon_User_change_80, .icon_User_change_90 { background-image:url('../icons/user_change.png') !important; }
+.icon_User_change_90 { background-size: 90% 90%;  background-position: center; }
+.icon_Venta { background-image:url('../icons/money.png') !important; }
+.icon_Vobo, .icon_Vobo_80,  .icon_Vobo_90 { background-image:url('../icons/btnVobo.png') !important; }
+.icon_Vobo_80 { background-size: 80% 80%;  background-position: center; }
+.icon_Vobo_90 { background-size: 90% 90%;  background-position: center; }
+.icon_VoboUndo { background-image:url('../icons/btnVoboUndo.png') !important; }
+
+.icon_clear_filter{background-image:url('../icons/filter_del.gif') !important;}
+.icon_en{background-image:url('../flags/us.png') !important;}
+.icon_es{background-image:url('../flags/es.png') !important;}
+.icon_home{background-image:url('../icons/house.png') !important;}
+.icon_menu_op_transp_inter{background-image:url('../icons/briefcase.png') !important;}
+.icon_pt_BR{background-image:url('../flags/br.png') !important;}
+.icon_save_all{background-image:url('../icons/disk_multiple.png') !important;}
+.icon_sitemap {background-image:url('../icons/sitemap_color.png') !important;}
+.title_unieje{color:#990000;font-family:Arial Narrow,Tahoma,arial;font-size:13px;font-weight:bold;}
+.title_area{color:#990000;font-family:Arial Narrow,Tahoma;font-size:11px;}
+.x-textfield-type{font-family:arial,Tahoma,verdana;font-size:10px;}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.cbo00001, .cbo00002, .cbo00003, .cbo00004, .cbo00005, .cbo00006, .cbo00051, .cbo00052, .cbo00053, .cbo00054, .cbo00055, .cbo00056,
+.cbo00101, .cbo00102, .cbo00103, .cbo00104, .cbo00105, .cbo00106, .cbo00151, .cbo00152, .cbo00153, .cbo00154, .cbo00155, .cbo00156,
+.cbo00201, .cbo00202, .cbo00203, .cbo00204, .cbo00205, .cbo00206, .cbo00251, .cbo00252, .cbo00253, .cbo00254, .cbo00255, .cbo00256,
+.cbo00301, .cbo00302, .cbo00303, .cbo00304, .cbo00305, .cbo00306, .cbo00351, .cbo00352, .cbo00353, .cbo00354, .cbo00355, .cbo00356 {
+    font-family    : tahoma, arial, verdana;
+    font-size      : 11px;
+    font-weight    : normal;
+    /*padding        : 1px;*/
+    padding-top    : 1px;
+    /*text-align     : left;*/
+    vertical-align : middle;
+}
+
+.cbo00001, .cbo00004, .cbo00051, .cbo00054, .cbo00101, .cbo00104, .cbo00151, .cbo00154, .cbo00201, .cbo00204, .cbo00251, .cbo00254, .cbo00301 { 
+    text-align : left; 
+}
+.cbo00002, .cbo00005, .cbo00052, .cbo00055, .cbo00102, .cbo00105, .cbo00152, .cbo00155, .cbo00202, .cbo00205, .cbo00252, .cbo00255, .cbo00302 { 
+    text-align : center; 
+}
+.cbo00003, .cbo00006, .cbo00053, .cbo00056, .cbo00103, .cbo00106, .cbo00153, .cbo00156, .cbo00203, .cbo00206, .cbo00253, .cbo00256, .cbo00303 { 
+    text-align : right; 
+}
+
+.cbo00001, .cbo00002, .cbo00003, .cbo00051, .cbo00052, .cbo00053, 
+.cbo00101, .cbo00102, .cbo00103, .cbo00151, .cbo00152, .cbo00153,
+.cbo00201, .cbo00202, .cbo00203, .cbo00251, .cbo00252, .cbo00253, 
+.cbo00301, .cbo00302, .cbo00303, .cbo00351, .cbo00352, .cbo00353 { 
+    font-weight : normal;
+}
+
+.cbo00004, .cbo00005, .cbo00006, .cbo00054, .cbo00055, .cbo00056,
+.cbo00104, .cbo00105, .cbo00106, .cbo00154, .cbo00155, .cbo00156,
+.cbo00204, .cbo00205, .cbo00206, .cbo00254, .cbo00255, .cbo00256,
+.cbo00304, .cbo00305, .cbo00306, .cbo00354, .cbo00355, .cbo00356 { 
+    font-weight : bold;  /*  TEXTO EN NEGRITA  */
+}
+
+.cbo00001, .cbo00002, .cbo00003, .cbo00004, .cbo00005, .cbo00006 { color : #000000; }
+.cbo00101, .cbo00102, .cbo00103, .cbo00104, .cbo00105, .cbo00106, .cbo00151, .cbo00152, .cbo00153, .cbo00154, .cbo00155, .cbo00156 { color : #990000; }/* GUINDA */
+.cbo00201, .cbo00202, .cbo00203, .cbo00204, .cbo00205, .cbo00206, .cbo00251, .cbo00252, .cbo00253, .cbo00254, .cbo00255, .cbo00256 { color : #0000A0; } /* AZUL */
+.cbo00301, .cbo00302, .cbo00303, .cbo00304, .cbo00305, .cbo00306, .cbo00351, .cbo00352, .cbo00353, .cbo00354, .cbo00355, .cbo00356 { color : #EC0000 !important; } /*  R O J O  */
+
+.cbo00151, .cbo00152, .cbo00153, .cbo00154, .cbo00155, .cbo00156,
+.cbo00251, .cbo00252, .cbo00253, .cbo00254, .cbo00255, .cbo00256 {
+    background-color: #F5F5F5; /* blanco huimo para deshabilitar */
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.df00001, .df00002, .df00003, .df00004, .df00005, .df00006, 
+.df00101, .df00102, .df00103, .df00104, .df00105, .df00106,
+.df00201, .df00202, .df00203, .df00204, .df00205, .df00206,
+.df00301, .df00302, .df00303, .df00304, .df00305, .df00306, 
+.df00401, .df00402, .df00403, .df00404, .df00405, .df00406, 
+.df00501, .df00502, .df00503, .df00504, .df00505, .df00506,
+.df00601, .df00602, .df00603, .df00604, .df00605, .df00606,
+.df00701, .df00702, .df00703, .df00704, .df00705, .df00706,
+.df00901, .df00902, .df00903, .df00904, .df00905, .df00906 {
+    font-family : tahoma, arial, verdana;
+    font-size   : 11px;
+    padding-top : 4px;
+    /*padding        : 1px; */
+    vertical-align : middle;
+}
+
+.df00001, .df00004, .df00101, .df00104, .df00201, .df00204, .df00301, .df00304, .df00401, .df00404, .df00501, .df00504, 
+.df00601, .df00604, .df00701, .df00704, .df00901, .df00904 { 
+    text-align : left; 
+}
+.df00002, .df00005, .df00102, .df00105, .df00202, .df00205, .df00302, .df00305, .df00402, .df00405, .df00502, .df00505,
+.df00602, .df00605, .df00702, .df00705, .df00902, .df00905 { 
+    text-align : center; 
+}
+.df00003, .df00006, .df00103, .df00106, .df00203, .df00206, .df00303, .df00306, .df00403, .df00406, .df00503, .df00506, 
+.df00603, .df00606, .df00703, .df00706, .df00903, .df00906 { 
+    text-align : right; 
+}
+.df00001, .df00002, .df00003, .df00101, .df00102, .df00103, .df00201, .df00202, .df00203, .df00301, .df00302, .df00303, .df00401, .df00402, .df00403, .df00501, .df00502, .df00503, 
+.df00601, .df00602, .df00603, .df00701, .df00702, .df00703, .df00901, .df00902, .df00903 {
+    font-weight : normal;
+}
+.df00004, .df00005, .df00006, .df00104, .df00105, .df00106, .df00204, .df00205, .df00206, .df00304, .df00305, .df00306, .df00404, .df00405, .df00406, .df00504, .df00505, .df00506,
+.df00604, .df00605, .df00606, .df00704, .df00705, .df00706, .df00904, .df00905, .df00906 {
+    font-weight : bold;
+}
+
+.df00001, .df00002, .df00003, .df00004, .df00005, .df00006 { color : #000000 !important;}  /*  N E G R O 3C3C3C */  
+.df00101, .df00102, .df00103, .df00104, .df00105, .df00106 { color : #990000 !important; } /*  G U I N DA  */
+.df00201, .df00202, .df00203, .df00204, .df00205, .df00206 { color : #0000A0 !important; } /*  A Z U L  : #000080 : #0000CC */  
+.df00301, .df00302, .df00303, .df00304, .df00305, .df00306 { color : #EC0000 !important; } /*  R O J O  */
+.df00401, .df00402, .df00403, .df00404, .df00405, .df00406 { color : #009900 !important; } /*  V E R D E  */
+.df00501, .df00502, .df00503, .df00504, .df00505, .df00506 { color : #FF8000; } /*  N A R A N J A  */
+.df00601, .df00602, .df00603, .df00604, .df00605, .df00606 { color : #999999; } /*  P L O M O  */
+.df00701, .df00702, .df00703, .df00704, .df00705, .df00706 { color : #CC00FF; } /*  V I O L E T A  */
+.df00901, .df00902, .df00903, .df00904, .df00905, .df00906 { color : #FFFFFF; } /*  B L A N C O  */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.item00001, .item00002, .item00003, .item00004, .item00005, .item00006,
+.item00051, .item00052, .item00053, .item00054, .item00055, .item00056,
+.item00101, .item00102, .item00103, .item00104, .item00105, .item00106,
+.item00151, .item00152, .item00153, .item00154, .item00155, .item00156,
+.item00201, .item00202, .item00203, .item00204, .item00205, .item00206,
+.item00251, .item00252, .item00253, .item00254, .item00255, .item00256 {
+    font-family: tahoma, Arial, verdana;
+    font-size: 11px;
+    font-weight: normal;
+    height: 21px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.lbl00001, .lbl00002, .lbl00003, .lbl00004, .lbl00005, .lbl00006, 
+.lbl00101, .lbl00102, .lbl00103, .lbl00104, .lbl00105, .lbl00106,
+.lbl00201, .lbl00202, .lbl00203, .lbl00204, .lbl00205, .lbl00206,
+.lbl00301, .lbl00302, .lbl00303, .lbl00304, .lbl00305, .lbl00306, 
+.lbl00401, .lbl00402, .lbl00403, .lbl00404, .lbl00405, .lbl00406, 
+.lbl00501, .lbl00502, .lbl00503, .lbl00504, .lbl00505, .lbl00506,
+.lbl00601, .lbl00602, .lbl00603, .lbl00604, .lbl00605, .lbl00606,
+.lbl00701, .lbl00702, .lbl00703, .lbl00704, .lbl00705, .lbl00706,
+.lbl00901, .lbl00902, .lbl00903, .lbl00904, .lbl00905, .lbl00906 {
+    font-family : tahoma, arial, verdana;
+    font-size   : 11px;
+    /*padding-top : 1px; */
+    /*padding        : 1px; */
+    vertical-align : middle;
+}
+
+.lbl00001, .lbl00004, .lbl00101, .lbl00104, .lbl00201, .lbl00204, .lbl00301, .lbl00304, .lbl00401, .lbl00404, .lbl00501, .lbl00504, 
+.lbl00601, .lbl00604, .lbl00701, .lbl00704, .lbl00901, .lbl00904 { 
+    text-align : left; 
+}
+.lbl00002, .lbl00005, .lbl00102, .lbl00105, .lbl00202, .lbl00205, .lbl00302, .lbl00305, .lbl00402, .lbl00405, .lbl00502, .lbl00505,
+.lbl00602, .lbl00605, .lbl00702, .lbl00705, .lbl00902, .lbl00905 { 
+    text-align : center; 
+}
+.lbl00003, .lbl00006, .lbl00103, .lbl00106, .lbl00203, .lbl00206, .lbl00303, .lbl00306, .lbl00403, .lbl00406, .lbl00503, .lbl00506, 
+.lbl00603, .lbl00606, .lbl00703, .lbl00706, .lbl00903, .lbl00906 { 
+    text-align : right; 
+}
+.lbl00001, .lbl00002, .lbl00003, .lbl00101, .lbl00102, .lbl00103, .lbl00201, .lbl00202, .lbl00203, .lbl00301, .lbl00302, .lbl00303, .lbl00401, .lbl00402, .lbl00403, .lbl00501, .lbl00502, .lbl00503, 
+.lbl00601, .lbl00602, .lbl00603, .lbl00701, .lbl00702, .lbl00703, .lbl00901, .lbl00902, .lbl00903 {
+    font-weight : normal;
+}
+.lbl00004, .lbl00005, .lbl00006, .lbl00104, .lbl00105, .lbl00106, .lbl00204, .lbl00205, .lbl00206, .lbl00304, .lbl00305, .lbl00306, .lbl00404, .lbl00405, .lbl00406, .lbl00504, .lbl00505, .lbl00506,
+.lbl00604, .lbl00605, .lbl00606, .lbl00704, .lbl00705, .lbl00706, .lbl00904, .lbl00905, .lbl00906 {
+    font-weight : bold;
+}
+
+.lbl00001, .lbl00002, .lbl00003, .lbl00004, .lbl00005, .lbl00006 { color : #000000 !important;}  /*  N E G R O 3C3C3C */  
+.lbl00101, .lbl00102, .lbl00103, .lbl00104, .lbl00105, .lbl00106 { color : #990000 !important; } /*  G U I N DA  */
+.lbl00201, .lbl00202, .lbl00203, .lbl00204, .lbl00205, .lbl00206 { color : #0000A0 !important; } /*  A Z U L  : #000080 : #0000CC */  
+.lbl00301, .lbl00302, .lbl00303, .lbl00304, .lbl00305, .lbl00306 { color : #EC0000 !important; } /*  R O J O  */
+.lbl00401, .lbl00402, .lbl00403, .lbl00404, .lbl00405, .lbl00406 { color : #009900 !important; } /*  V E R D E  */
+.lbl00501, .lbl00502, .lbl00503, .lbl00504, .lbl00505, .lbl00506 { color : #FF8000; } /*  N A R A N J A  */
+.lbl00601, .lbl00602, .lbl00603, .lbl00604, .lbl00605, .lbl00606 { color : #999999; } /*  P L O M O  */
+.lbl00701, .lbl00702, .lbl00703, .lbl00704, .lbl00705, .lbl00706 { color : #CC00FF; } /*  V I O L E T A  */
+.lbl00901, .lbl00902, .lbl00903, .lbl00904, .lbl00905, .lbl00906 { color : #FFFFFF; } /*  B L A N C O  */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.td00001, .td00002, .td00003, .td00004, .td00005, .td00006, 
+.td00101, .td00102, .td00103, .td00104, .td00105, .td00106,
+.td00201, .td00202, .td00203, .td00204, .td00205, .td00206,
+.td00301, .td00302, .td00303, .td00304, .td00305, .td00306,
+.td00401, .td00402, .td00403, .td00404, .td00405, .td00406,
+.td00501, .td00502, .td00503, .td00504, .td00505, .td00506,
+.td00601, .td00602, .td00603, .td00604, .td00605, .td00606,
+.td00701, .td00702, .td00703, .td00704, .td00705, .td00706 {
+    padding-top: 2px;
+    font: 11px arial, tahoma;
+}
+
+.td00001, .td00004, .td00101, .td00104, .td00201, .td00204, .td00301, .td00304, .td00401, .td00404, .td00501, .td00504, 
+.td00601, .td00604, .td00701, .td00704 { text-align : left; }
+.td00002, .td00005, .td00102, .td00105, .td00202, .td00205, .td00302, .td00305, .td00402, .td00405, .td00502, .td00505, 
+.td00602, .td00605, .td00702, .td00705 { text-align : center; }
+.td00003, .td00006, .td00103, .td00106, .td00203, .td00206, .td00303, .td00306, .td00403, .td00406, .td00503, .td00506, 
+.td00603, .td00606, .td00703, .td00706 { text-align : right; }
+
+.td00004, .td00005, .td00006, 
+.td00104, .td00105, .td00106,
+.td00204, .td00205, .td00206,
+.td00304, .td00305, .td00306,
+.td00404, .td00405, .td00406,
+.td00504, .td00505, .td00506,
+.td00604, .td00605, .td00606,
+.td00704, .td00705, .td00706{
+    font-weight : bold;
+}
+
+.td00001, .td00002, .td00003, .td00004, .td00005, .td00006 { color : #000000; } /*  N E G R O   */
+.td00101, .td00102, .td00103, .td00104, .td00105, .td00106 { color : #990000; } /*  G U I N DA  */
+.td00201, .td00202, .td00203, .td00204, .td00205, .td00206 { color : #0000A0; } /*  A Z U L  : #000080 : #0000CC */  
+.td00301, .td00302, .td00303, .td00304, .td00305, .td00306 { color : #EC0000; } /*  R O J O  */
+.td00401, .td00402, .td00403, .td00404, .td00405, .td00406 { color : #009900; } /*  V E R D E  */
+.td00501, .td00502, .td00503, .td00504, .td00505, .td00506 { color : #FF8000; } /*  N A R A N J A  */
+.td00601, .td00602, .td00603, .td00604, .td00605, .td00606 { color : #999999; } /*  P L O M O  */
+.td00701, .td00702, .td00703, .td00704, .td00705, .td00706 { color : #CC00FF; } /*  VIOLETA  */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.txt00001, .txt00002, .txt00003, .txt00004, .txt00005, .txt00006,  /* N E G R O */
+.txt00011, .txt00012, .txt00013, .txt00014, .txt00015, .txt00016,
+.txt00051, .txt00052, .txt00053, .txt00054, .txt00055, .txt00056,
+.txt00101, .txt00102, .txt00103, .txt00104, .txt00105, .txt00106,  /* G U I N D A */
+.txt00111, .txt00112, .txt00113, .txt00114, .txt00115, .txt00116,
+.txt00151, .txt00152, .txt00153, .txt00154, .txt00155, .txt00156,
+.txt00201, .txt00202, .txt00203, .txt00204, .txt00205, .txt00206,  /* A Z U L */
+.txt00211, .txt00212, .txt00213, .txt00214, .txt00215, .txt00216,
+.txt00251, .txt00252, .txt00253, .txt00254, .txt00255, .txt00256,
+.txt00301, .txt00302, .txt00303, .txt00304, .txt00305, .txt00306,  /* R O J O */
+.txt00311, .txt00312, .txt00313, .txt00314, .txt00315, .txt00316,
+.txt00351, .txt00352, .txt00353, .txt00354, .txt00355, .txt00356,
+.txt00401, .txt00402, .txt00403, .txt00404, .txt00405, .txt00406,  /* V E R D E */
+.txt00411, .txt00412, .txt00413, .txt00414, .txt00415, .txt00416,
+.txt00451, .txt00452, .txt00453, .txt00454, .txt00455, .txt00456,
+.txt00501, .txt00502, .txt00503, .txt00504, .txt00505, .txt00506,  /* N A R A N J A */
+.txt00511, .txt00512, .txt00513, .txt00514, .txt00515, .txt00516,
+.txt00551, .txt00552, .txt00553, .txt00554, .txt00555, .txt00556 {
+    font-family    : tahoma, arial, verdana;
+    font-size      : 11px;
+    /*vertical-align : middle; */
+}
+
+.txt00011, .txt00012, .txt00013, .txt00014, .txt00015, .txt00016,
+.txt00111, .txt00112, .txt00113, .txt00114, .txt00115, .txt00116,
+.txt00211, .txt00212, .txt00213, .txt00214, .txt00215, .txt00216,
+.txt00311, .txt00312, .txt00313, .txt00314, .txt00315, .txt00316,
+.txt00411, .txt00412, .txt00413, .txt00414, .txt00415, .txt00416,
+.txt00511, .txt00512, .txt00513, .txt00514, .txt00515, .txt00516 {
+    text-transform : uppercase;  /* MAYUSCULAS  */
+}
+
+.txt00001, .txt00002, .txt00003, .txt00004, .txt00005, .txt00006,
+.txt00011, .txt00012, .txt00013, .txt00014, .txt00015, .txt00016,
+.txt00051, .txt00052, .txt00053, .txt00054, .txt00055, .txt00056 {
+    color : #000000; /* NEGRO */
+}
+
+.txt00101, .txt00102, .txt00103, .txt00104, .txt00105, .txt00106,
+.txt00111, .txt00112, .txt00113, .txt00114, .txt00115, .txt00116,
+.txt00151, .txt00152, .txt00153, .txt00154, .txt00155, .txt00156 {
+    color : #990000; /* GUINDA */
+}
+
+.txt00201, .txt00202, .txt00203, .txt00204, .txt00205, .txt00206,
+.txt00211, .txt00212, .txt00213, .txt00214, .txt00215, .txt00216
+.txt00251, .txt00252, .txt00253, .txt00254, .txt00255, .txt00256 {
+    color : #0000A0; /* AZUL */
+}
+
+.txt00301, .txt00302, .txt00303, .txt00304, .txt00305, .txt00306,
+.txt00311, .txt00312, .txt00313, .txt00314, .txt00315, .txt00316,
+.txt00351, .txt00352, .txt00353, .txt00354, .txt00355, .txt00356 {
+    color : #EC0000; /* ROJO */
+}
+
+.txt00401, .txt00402, .txt00403, .txt00404, .txt00405, .txt00406,
+.txt00411, .txt00412, .txt00413, .txt00414, .txt00415, .txt00416,
+.txt00451, .txt00452, .txt00453, .txt00454, .txt00455, .txt00456{ 
+    color : #009900; /* VERDE */
+}
+
+.txt00501, .txt00502, .txt00503, .txt00504, .txt00505, .txt00506,
+.txt00511, .txt00512, .txt00513, .txt00514, .txt00515, .txt00516,
+.txt00551, .txt00552, .txt00553, .txt00554, .txt00555, .txt00556 {
+    color : #FF8000; /* NARANJA */
+}
+
+.txt00001, .txt00002, .txt00003, .txt00011, .txt00012, .txt00013, .txt00051, .txt00052, .txt00053,
+.txt00101, .txt00102, .txt00103, .txt00111, .txt00112, .txt00113, .txt00151, .txt00152, .txt00153,
+.txt00201, .txt00202, .txt00203, .txt00211, .txt00212, .txt00213, .txt00251, .txt00252, .txt00253,
+.txt00301, .txt00302, .txt00303, .txt00311, .txt00312, .txt00313, .txt00351, .txt00352, .txt00353,
+.txt00401, .txt00402, .txt00403, .txt00411, .txt00412, .txt00413, .txt00451, .txt00452, .txt00453,
+.txt00501, .txt00502, .txt00503, .txt00511, .txt00512, .txt00513, .txt00551, .txt00552, .txt00553 { 
+    font-weight : normal;
+}
+
+.txt00004, .txt00005, .txt00006, .txt00014, .txt00015, .txt00016, .txt00054, .txt00055, .txt00056,
+.txt00104, .txt00105, .txt00106, .txt00114, .txt00115, .txt00116, .txt00154, .txt00155, .txt00156,
+.txt00204, .txt00205, .txt00206, .txt00214, .txt00215, .txt00216, .txt00254, .txt00255, .txt00256,
+.txt00304, .txt00305, .txt00306, .txt00314, .txt00315, .txt00316, .txt00354, .txt00355, .txt00356,
+.txt00404, .txt00405, .txt00406, .txt00414, .txt00415, .txt00416, .txt00454, .txt00455, .txt00456,
+.txt00504, .txt00505, .txt00506, .txt00514, .txt00515, .txt00516, .txt00554, .txt00555, .txt00556 { 
+    font-weight : bold;  /*  TEXTO EN NEGRITA  */
+}
+
+.txt00001, .txt00002, .txt00003, .txt00004, .txt00005, .txt00006, .txt00011, .txt00012, .txt00013, .txt00014, .txt00015, .txt00016,
+.txt00051, .txt00052, .txt00053, .txt00054, .txt00055, .txt00056,
+.txt00101, .txt00102, .txt00103, .txt00104, .txt00105, .txt00106, .txt00111, .txt00112, .txt00113, .txt00114, .txt00115, .txt00116,
+.txt00151, .txt00152, .txt00153, .txt00154, .txt00155, .txt00156,
+.txt00201, .txt00202, .txt00203, .txt00204, .txt00205, .txt00206, .txt00211, .txt00212, .txt00213, .txt00214, .txt00215, .txt00216,
+.txt00251, .txt00252, .txt00253, .txt00254, .txt00255, .txt00256,
+.txt00301, .txt00302, .txt00303, .txt00304, .txt00305, .txt00306, .txt00311, .txt00312, .txt00313, .txt00314, .txt00315, .txt00316,
+.txt00351, .txt00352, .txt00353, .txt00354, .txt00355, .txt00356,
+.txt00401, .txt00402, .txt00403, .txt00404, .txt00405, .txt00406, .txt00411, .txt00412, .txt00413, .txt00414, .txt00415, .txt00416,
+.txt00451, .txt00452, .txt00453, .txt00454, .txt00455, .txt00456,
+.txt00501, .txt00502, .txt00503, .txt00504, .txt00505, .txt00506, .txt00511, .txt00512, .txt00513, .txt00514, .txt00515, .txt00516,
+.txt00551, .txt00552, .txt00553, .txt00554, .txt00555, .txt00556 {
+    /*padding-left  : 4px;
+    padding-right : 2px; */
+    padding-top : 1px;
+}
+
+.txt00051, .txt00052, .txt00053, .txt00054, .txt00055, .txt00056,
+.txt00151, .txt00152, .txt00153, .txt00154, .txt00155, .txt00156,
+.txt00251, .txt00252, .txt00253, .txt00254, .txt00255, .txt00256,
+.txt00351, .txt00352, .txt00353, .txt00354, .txt00355, .txt00356,
+.txt00451, .txt00452, .txt00453, .txt00454, .txt00455, .txt00456,
+.txt00551, .txt00552, .txt00553, .txt00554, .txt00555, .txt00556, {
+    background-color: #F5F5F5; /* amarillo para deshabilitar */
+}
+
+.txt00001, .txt00004, .txt00011, .txt00014, .txt00051, .txt00054, .txt00071, .txt00074
+.txt00101, .txt00104, .txt00111, .txt00114, .txt00151, .txt00154, .txt00171, .txt00174,
+.txt00201, .txt00204, .txt00211, .txt00214, .txt00251, .txt00254, .txt00271, .txt00274,
+.txt00301, .txt00304, .txt00311, .txt00314, .txt00351, .txt00354, .txt00371, .txt00374,
+.txt00401, .txt00404, .txt00411, .txt00414, .txt00451, .txt00454, .txt00471, .txt00474,
+.txt00501, .txt00504, .txt00511, .txt00514, .txt00551, .txt00554, .txt00571, .txt00574 {
+    text-align : left;
+}
+
+.txt00002, .txt00005, .txt00012, .txt00015, .txt00052, .txt00055, .txt00072, .txt00075,
+.txt00102, .txt00105, .txt00112, .txt00115, .txt00152, .txt00155, .txt00172, .txt00175, 
+.txt00202, .txt00205, .txt00212, .txt00215, .txt00252, .txt00255, .txt00272, .txt00275,
+.txt00302, .txt00305, .txt00312, .txt00315, .txt00352, .txt00355, .txt00372, .txt00375,
+.txt00402, .txt00405, .txt00412, .txt00415, .txt00452, .txt00455, .txt00472, .txt00475,
+.txt00502, .txt00505, .txt00512, .txt00515, .txt00552, .txt00555, .txt00572, .txt00575 {
+    text-align : center;
+}
+
+.txt00003, .txt00006, .txt00013, .txt00016, .txt00053, .txt00056, .txt00073, .txt00076,
+.txt00103, .txt00106, .txt00113, .txt00116, .txt00153, .txt00156, .txt00173, .txt00176,
+.txt00203, .txt00206, .txt00213, .txt00216, .txt00253, .txt00256, .txt00273, .txt00276,
+.txt00303, .txt00306, .txt00313, .txt00316, .txt00353, .txt00356, .txt00373, .txt00376,
+.txt00403, .txt00406, .txt00413, .txt00416, .txt00453, .txt00456, .txt00473, .txt00476,
+.txt00503, .txt00506, .txt00513, .txt00516, .txt00553, .txt00556, .txt00573, .txt00576 {
+    text-align : right;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.mx-letra-azul .x-grid-cell{ color: #0000A0; }
+.mx-letra-azul-bold .x-grid-cell{ color: #0000A0; font-weight: bold !important; }
+.mx-letra-guinda .x-grid-cell{ color: #990000; }
+.mx-letra-guinda-bold .x-grid-cell{ color: #990000; font-weight: bold !important; }
+.mx-letra-negro .x-grid-cell{ color: #000000; }
+.mx-letra-negro-bold .x-grid-cell{ color: #000000; font-weight: bold !important; }
+.mx-letra-rojo .x-grid-cell{ color: #EC0000; }
+.mx-letra-rojo-bold .x-grid-cell{ color: #EC0000; font-weight: bold !important; }
+.mx-letra-verde .x-grid-cell{ color: #009900; }
+.mx-letra-verde-bold .x-grid-cell{ color: #009900; font-weight: bold !important; }
+.mx-letra-negrita .x-grid-cell{ font-weight: bold !important; }
+
+.x-mask.splashscreen { 
+    background-color: white; 
+    opacity: 1; 
+}
+
+.x-action-col-cell img {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.x-mask-msg.splashscreen, 
+.x-mask-msg.splashscreen div { 
+    font-size: 26px; 
+    font-weight: bold; 
+    padding: 30px 5px 5px 5px;
+    border: none; 
+    background-color: transparent; 
+    background-position: top center; 
+}
+
+.x-message-box .x-window-body .x-box-inner { 
+    min-height: 210px !important; 
+}
+
+.x-splash-icon { 
+    background-image:url('../images/logo.jpg') !important; /*background-image: url('../images/escudo_arequipa.jpe') !important;  /*background-image: url('../images/logo_ceticos.jpg') !important;  */
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: -100px;  /* margin-top: -30px;  */
+    /* margin-bottom: 5px;  /* margin-bottom: 15px; */
+    height: 215px; /*height: 100px; */
+}
+
+.titleHeader {
+    color:#000; 
+    font-size:20px; 
+    font-family:'Lucida Grande', Arial, Sans;
+    font-weight:bold;
+}
+
+.subtitleHeader {
+    font-family : arial, Tahoma;
+    font-size   : 10px;
+    font-weight : normal;
+    /*color       : #006699; */
+}

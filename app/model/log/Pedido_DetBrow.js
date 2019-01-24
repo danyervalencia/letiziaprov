@@ -1,0 +1,3 @@
+Ext.define('Siace.model.log.Pedido_DetBrow',{extend:'Ext.data.Model',fields:[{name:'peddet_item',type:'int'},{name:'peddet_detalle',type:'string'},{name:'peddet_cantid',type:'float'},{name:'peddet_preuni',type:'float'},{name:'peddet_dscto',type:'float'},{name:'peddet_pretot',type:'float'},
+{name:'bs_codigo',type:'string'},{name:'bs_nombre',type:'string'},{name:'unimed_nombre',type:'string'},{name:'espedet_codigo',type:'string'}
+]});
